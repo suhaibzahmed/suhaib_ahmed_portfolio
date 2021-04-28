@@ -255,7 +255,7 @@ const Portfolio = () => {
                 <div data-aos="fade-left" className={styles.heading_line}></div>
 
                 <div className={styles.contact_div}>
-                    <div className={styles.contact_details}>
+                    <div className={styles.contact_details} data-aos="flip-left">
                         <div className={styles.contact_icon}><i class="fa fa-envelope"></i></div>
                         <div className={styles.contact_info}>
                             <h3>Email: </h3>
@@ -263,7 +263,7 @@ const Portfolio = () => {
                         </div>
                     </div>
 
-                    <div className={styles.contact_details}>
+                    <div className={styles.contact_details} data-aos="flip-left">
                         <div className={styles.contact_icon}><i class="fa fa-phone"></i></div>
                         <div className={styles.contact_info}>
                             <h3>Phone: </h3>
@@ -271,7 +271,7 @@ const Portfolio = () => {
                         </div>
                     </div>
 
-                    <div className={styles.contact_details}>
+                    <div className={styles.contact_details} data-aos="flip-left">
                         <div className={styles.contact_icon}><i class="fa fa-map-marker"></i></div>
                         <div className={styles.contact_info}>
                             <h3>Location: </h3>
@@ -279,14 +279,14 @@ const Portfolio = () => {
                         </div>
                     </div>
 
-                    <div className={styles.contact_details}>
+                    <div className={styles.contact_details} data-aos="flip-left">
                         <div className={styles.contact_icon}><i class="fa fa-linkedin"></i></div>
                         <div className={styles.contact_info} style={{marginTop: "18px"}}>
                             <h3><a href = "www.linkedin.com/in/suhaib-ahmed10">LinkedIn</a></h3>
                         </div>
                     </div>
 
-                    <div className={styles.contact_details}>
+                    <div className={styles.contact_details} data-aos="flip-left">
                         <div className={styles.contact_icon}><i class="fa fa-github"></i></div>
                         <div className={styles.contact_info} style={{marginTop: "18px"}}>
                             <h3><a href = "https://github.com/suhaibzahmed">Github</a></h3>
