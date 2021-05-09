@@ -14,6 +14,7 @@ const Portfolio = () => {
     const [navTech, setNavTech] = useState(false)   //Navbar Tech Option
     const [navProject, setNavProject] = useState(false)   //Navbar About Option
     const [navContact, setNavContact] = useState(false)   //Navbar Tech Option
+    const [navBurger, setNavBurger] = useState(false)   //Navbar burger icon
 
     // Transform Navbar into solid on scroll 
     useEffect (()=>{
@@ -40,6 +41,7 @@ const Portfolio = () => {
         setNavTech(false)
         setNavProject(false)
         setNavContact(false)
+        setNavBurger(prev => !prev)
     }
 
     function handleAbout() {
@@ -48,6 +50,7 @@ const Portfolio = () => {
         setNavTech(false)
         setNavProject(false)
         setNavContact(false)
+        setNavBurger(prev => !prev)
     }
 
     function handleTech() {
@@ -56,6 +59,7 @@ const Portfolio = () => {
         setNavTech(true)
         setNavProject(false)
         setNavContact(false)
+        setNavBurger(prev => !prev)
     }
 
     function handleProject() {
@@ -64,6 +68,7 @@ const Portfolio = () => {
         setNavTech(false)
         setNavProject(true)
         setNavContact(false)
+        setNavBurger(prev => !prev)
     }
 
     function handleContact() {
@@ -72,6 +77,11 @@ const Portfolio = () => {
         setNavTech(false)
         setNavProject(false)
         setNavContact(true)
+        setNavBurger(prev => !prev)
+    }
+
+    const handleBurger = () => {
+        setNavBurger(prev => !prev) 
     }
 
     return (
@@ -80,7 +90,8 @@ const Portfolio = () => {
             {/* Navbar */}
             <div className={solidNav ? styles.solidNavbar : styles.transparentNavbar}>
                 <div className={styles.navbar_name}>SUHAIB AHMED</div>
-                <div className={styles.menu_options}>
+                {navBurger ? <div className={styles.burger_div}><i class="fa fa-times" className={styles.navbar_burger} onClick={handleBurger}></i></div> : <div className={styles.close_div}><i class="fa fa-bars" className={styles.navbar_close} onClick={handleBurger}></i></div>}
+                <div className={navBurger ? styles.burger_options : styles.menu_options}>
                     <div onClick={handleHome} className={navHome ? styles.underlineOpt : styles.noUnderlineOpt}><a href="#home">Home</a></div>
                     <div onClick={handleAbout} className={navAbout ? styles.underlineOpt : styles.noUnderlineOpt}><a href="#about" >About</a></div>
                     <div onClick={handleTech} className={navTech ? styles.underlineOpt : styles.noUnderlineOpt}><a href="#tech">Tech Stack</a></div>
@@ -114,12 +125,12 @@ const Portfolio = () => {
                         Always eager to engage in new and exciting projects. Looking forward to making a mark in the programming world.
                     </div>
                     <div className={styles.social_links}>
-                        <a href = "www.linkedin.com/in/suhaib-ahmed10"><i class="fa fa-linkedin" data-aos="fade-up" data-aos-delay="1000"></i></a>
+                        <a href = "https://www.linkedin.com/in/suhaib-ahmed10"><i class="fa fa-linkedin" data-aos="fade-up" data-aos-delay="1000"></i></a>
                         <a href = "https://github.com/suhaibzahmed"><i class="fa fa-github" data-aos="fade-up" data-aos-delay="1200"></i></a>
-                        <a href = "www.linkedin.com/in/suhaib-ahmed10"><i class="fa fa-twitter" data-aos="fade-up" data-aos-delay="1400"></i></a>
+                        <a href = "https://twitter.com/AHEMed_Suhaib"><i class="fa fa-twitter" data-aos="fade-up" data-aos-delay="1400"></i></a>
                     </div>
 
-                    <div className={styles.resume} data-aos="fade-up" data-aos-delay="1000"> <a href="https://drive.google.com/file/d/1MP0XIFXV0Dl5dIt-CFK_3eS0chn7V98s/view?usp=sharing" target="_blank">Download Resume</a></div>
+                    <div className={styles.resume} data-aos="fade-up" data-aos-delay="1000"> <a href="https://drive.google.com/file/d/1ikNB25IReozzv21DMAN2dXYxSVre7MvU/view?usp=sharing" target="_blank">Download Resume</a></div>
                 </div>
             </section>
 
@@ -282,7 +293,7 @@ const Portfolio = () => {
                     <div className={styles.contact_details} data-aos="flip-left">
                         <div className={styles.contact_icon}><i class="fa fa-linkedin"></i></div>
                         <div className={styles.contact_info} style={{marginTop: "18px"}}>
-                            <h3><a href = "www.linkedin.com/in/suhaib-ahmed10">LinkedIn</a></h3>
+                            <h3><a href = "https://www.linkedin.com/in/suhaib-ahmed10">LinkedIn</a></h3>
                         </div>
                     </div>
 

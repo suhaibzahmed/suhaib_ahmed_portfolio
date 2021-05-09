@@ -10,6 +10,10 @@ a {
     scroll-behavior: smooth;
 }
 
+.burger_div, .close_div {
+    display: none;
+}
+
 .transparentNavbar, .solidNavbar {
     position: fixed;
     top: 0;
@@ -30,20 +34,28 @@ a {
     background-color: #3d31aa;
 }
 
-.menu_options {
+.transparentNavbar > i {
+    display: none;
+}
+
+.solidNavbar > i {
+    display: none;
+}
+
+.menu_options, .burger_options {
     width: 700px;
     display: flex;
     justify-content: space-around;
 }
 
-.menu_options div a{
+.menu_options div a, .burger_options div a{
     text-decoration: none;
     font-size: 16px;
     font-weight: 600;
     transition: 0.3s;
 }
   
-.menu_options div a:hover {
+.menu_options div a:hover, .burger_options div a:hover {
     color: white;
     text-decoration: none;
 }
@@ -554,30 +566,95 @@ a {
 
 
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 900px) {
+/* Extra small devices (phones, 945px and down) */
+@media only screen and (max-width: 945px) {
+
+    .burger_div, .close_div {
+        display: block;
+    }
+    
+
+    .transparentNavbar, .solidNavbar {
+        z-index: 1000;
+    }
+
+    .transparentNavbar > i, .solidNavbar > i {
+        display: block;
+        cursor: pointer;
+    }
+
+    .menu_options, .burger_options {
+        position: fixed;
+        top: 70px;
+        left: -120%;
+        display: block;
+        padding: 15% 0;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        background-color: white;
+        transition: 0.5s;
+        z-index: 999;
+    }
+
+    .menu_options div, .burger_options div {
+        margin-bottom: 25px;
+    }
+
+    .menu_options div a, .burger_options div a{
+        color: black;
+        font-size: 34px;
+        text-decoration: none;
+    }
+
+    .menu_options div a:hover, .burger_options div a:hover {
+        color: #3d31aa;
+    }
+
+    .burger_options {
+        left: 0;
+    }
+
+    .burger_div, .close_div {
+        padding-right: 60px;
+        font-size: 28px;
+        cursor: pointer;
+    }
+
+    .burger_div:hover, .close_div:hover {
+        color: rgba(255, 255, 255, 0.6);
+    }
+  
+    .navbar_name {
+        font-size: 24px;
+        margin-left: 30px;
+    }
+
     .homeDetails {
         margin-left: -40px;
     }
 
     .hello {
-        font-size: 34;
+        font-size: 38px;
         font-weight: bold;
         color: white;
     }
 
     .iam {
-        font-size: 26px;
+        font-size: 28px;
+        margin-bottom: -20px;
     }
     
     .myName {
-        font-size: 35px;
+        font-size: 38px;
         font-weight: bold;
     }
     
     .line1{
-        font-size: 24px;
+        font-size: 36px;
         width: 200px;
+        margin-top: 60px;
     }
 
     .about_btn {
@@ -590,5 +667,36 @@ a {
         cursor: pointer;
         margin-top: -20px;
         text-align: center;
+    }
+} 
+
+
+/* Extra small devices (phones, 730px and down) */
+@media only screen and (max-width: 730px) {
+
+    .hello {
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+    }
+
+    .iam {
+        font-size: 24px;
+        margin-bottom: -20px;
+    }
+    
+    .myName {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    
+    .line1{
+        font-size: 28px;
+        width: 200px;
+        margin-top: 60px;
+    }
+
+    .menu_options div a{
+        font-size: 30px;
     }
 } 
