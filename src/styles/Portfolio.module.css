@@ -359,9 +359,10 @@ a {
 .tech_stack div, .prof div {
     width: 335px;
     height: 210px;
-    /* margin-right: 80px;
-    margin-bottom: 100px; */
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     box-shadow: 1px 1px 2px rgba(61, 49, 170, 0.4);
     cursor: pointer;
     padding: 20px 0;
@@ -373,11 +374,12 @@ a {
 }
 
 .tech_stack img, .prof img {
-    height: 150px;
+    height: 100px;
 }
 
 .tech_stack h3, .prof h3 {
     color: rgb(83, 83, 83);
+    margin-top: 45px;
 }
 
 .prof div {
@@ -386,6 +388,7 @@ a {
 
 .prof p {
     color: rgb(131, 131, 131);
+    text-align: center;
 }
 
 .prof div:hover {
@@ -404,12 +407,15 @@ a {
 }
 .project_card {
     position: relative;
-    width: 550px;
-    margin-bottom: 50px;
+    width: 500px;
+    margin-bottom: 60px;
     cursor: pointer;
     height: 460px;
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
 }
+
+
 
 .project_card h4 {
     font-size: 24px;
@@ -418,7 +424,7 @@ a {
 .project_img {
     display: block;
     width: 100%;
-    height: 340px;
+    height: 350px;
     object-fit: cover;
 }
 
@@ -444,6 +450,7 @@ a {
     position: absolute;
     top: 47%;
     left: 50%;
+    width: 70%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -454,7 +461,7 @@ a {
     display: flex;
     width: 100%;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 30px;
     justify-content: space-evenly;
 }
 
@@ -470,6 +477,11 @@ a {
 
 .project_tech_div img{
     height: 40px;
+}
+
+.project_links_div {
+    display: flex;
+    margin-top: 50px;
 }
 
 .github_link {
@@ -503,21 +515,25 @@ a {
 } 
 
 .contact_div {
-    width: 100%;
+    width: 60%;
     height: 100%;
     margin: auto;
     margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .contact_details {
     display: flex;
+    border-top: 2px solid rgba(61, 49, 170, 0.2);
     border-bottom: 2px solid rgba(61, 49, 170, 0.2);
     width: 350px;
     background-color: white;
     margin: auto;
     height: 130px;
     color: rgb(61, 49, 170);
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 }
 
 .contact_icon {

@@ -141,14 +141,14 @@ const Portfolio = () => {
                 <div data-aos="fade-left" className={styles.heading_line}></div>
 
                 <div className={styles.tech_stack}>
-                    <div><img src= "https://i.postimg.cc/VLmvF7TS/html.png"/><h3>HTML</h3></div>
-                    <div><img src= "https://i.postimg.cc/XNwXdM2S/css.png"/><h3>CSS</h3></div>
-                    <div><img src= "https://i.postimg.cc/Y9F0dTMF/js.png"/><h3>Javascript</h3></div>
-                    <div><img src= "https://i.postimg.cc/5Ng0KBds/react.png"/><h3>React</h3></div>
-                    <div><img src= "https://i.postimg.cc/Hn4xg5Js/redux.png"/><h3>Redux</h3></div>
-                    <div><img src= "https://i.postimg.cc/6p1QtBQR/mongo.png"/><h3>MongoDB</h3></div>
-                    <div><img src= "https://i.postimg.cc/52tthXfb/mysql.png"/><h3>MySQL</h3></div>
-                    <div><img src= "https://i.postimg.cc/YSZjftKk/git.png"/><h3>GIT</h3></div>
+                    <div data-aos="flip-left" data-aos-delay="500"><img src= "https://i.postimg.cc/VLmvF7TS/html.png"/><h3>HTML</h3></div>
+                    <div data-aos="flip-left" data-aos-delay="800"><img src= "https://i.postimg.cc/XNwXdM2S/css.png"/><h3>CSS</h3></div>
+                    <div data-aos="flip-left" data-aos-delay="1100"><img src= "https://i.postimg.cc/Y9F0dTMF/js.png"/><h3>Javascript</h3></div>
+                    <div data-aos="flip-left" data-aos-delay="1400"><img src= "https://i.postimg.cc/5Ng0KBds/react.png"/><h3>React</h3></div>
+                    <div data-aos="flip-left" data-aos-delay="1700"><img src= "https://i.postimg.cc/Hn4xg5Js/redux.png"/><h3>Redux</h3></div>
+                    <div data-aos="flip-left" data-aos-delay="2000"><img src= "https://i.postimg.cc/6p1QtBQR/mongo.png"/><h3>MongoDB</h3></div>
+                    <div data-aos="flip-left" data-aos-delay="2300"><img src= "https://i.postimg.cc/52tthXfb/mysql.png"/><h3>MySQL</h3></div>
+                    <div data-aos="flip-left" data-aos-delay="2600"><img src= "https://i.postimg.cc/YSZjftKk/git.png"/><h3>GIT</h3></div>
                 </div>
             </section>
 
@@ -159,19 +159,19 @@ const Portfolio = () => {
                 <div data-aos="fade-left" className={styles.heading_line}></div>
 
                 <div className={styles.prof}>
-                    <div>
+                    <div data-aos="flip-left" data-aos-delay="500">
                         <img src= "https://i.postimg.cc/sxwVdCQw/front.png"/>
                         <h3>Front-end</h3>
                         <p>HTML, CSS, Javascript, React, Redux</p>
                     </div>
-                    <div>
+                    <div data-aos="flip-left" data-aos-delay="800">
                         <img src= "https://i.postimg.cc/VLkf9vpT/back.png"/>
                         <h3>Back-end</h3>
                         <p>Express, MongoDB, MySQL</p>
                     </div>
-                    <div>
+                    <div data-aos="flip-left" data-aos-delay="1100">
                         <img src= "https://i.postimg.cc/zDjDRKtK/ds.png"/>
-                        <h3>Data Structures & Algorithm</h3>
+                        <h3>Data Structures & Algorithms</h3>
                         <p>Arrays, Stacks, Queues, Recursion, Sorting Algorithms</p>
                     </div>
                 </div>
@@ -190,10 +190,17 @@ const Portfolio = () => {
                             <div className={styles.text}>
                                 <h4>CNN News Website Clone</h4>
                                 <p>The clone of the official CNN News website with all the current news and headlines. Has links to each headlines which shows detailed news. It has got features like search news, toggle between languages and much more.</p>
-                                <div className={styles.github_link}><a href="https://github.com/MaheshFSD/ethane">
-                                    <i class="fa fa-github"></i>
-                                    Github Link</a>
+                                <div className={styles.project_links_div}>
+                                    <div className={styles.github_link}><a href="https://maheshfsd.github.io/ethane/">
+                                        <i class="fa fa-laptop"></i>
+                                        Demo</a>
+                                    </div>
+                                    <div className={styles.github_link}><a href="https://github.com/MaheshFSD/ethane">
+                                        <i class="fa fa-github"></i>
+                                        Github Link</a>
+                                    </div>
                                 </div>
+                                
                             </div>
                         </div>
                         <div className={styles.project_tech_div}>
@@ -208,9 +215,15 @@ const Portfolio = () => {
                             <div className={styles.text}>
                                 <h4>Boat Audio Website Clone</h4>
                                 <p>The clone of the official Boat Audio website. Consists of all products in each category. Features like sort products based on price implemented. Also has functionalities like change quantity and color of product. User can also add items to cart.</p>
-                                <div className={styles.github_link}><a href="https://github.com/hrshrayank/Boat-Clone">
-                                    <i class="fa fa-github"></i>
-                                    Github Link</a>
+                                <div className={styles.project_links_div}>
+                                    <div className={styles.github_link}><a href="https://boat-clone.herokuapp.com/">
+                                        <i class="fa fa-laptop"></i>
+                                        Demo</a>
+                                    </div>
+                                    <div className={styles.github_link}><a href="https://github.com/suhaibzahmed/Boat-Clone/tree/Suhaib">
+                                        <i class="fa fa-github"></i>
+                                        Github Link</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -226,9 +239,15 @@ const Portfolio = () => {
                             <div className={styles.text}>
                                 <h4>Clockify Website Clone</h4>
                                 <p>The clone of the official Clockify website, a time management tool. Has features like timesheet, where user can add time spent on each task, and timetracker which tracks the time from when task started. Also depicts data in graphical form for better analysis. </p>
-                                <div className={styles.github_link}><a href="https://github.com/therealdrtroll/clockify-clone">
-                                    <i class="fa fa-github"></i>
-                                    Github Link</a>
+                                <div className={styles.project_links_div}>
+                                    <div className={styles.github_link}><a href="https://clockify-hydrogen.netlify.app/">
+                                        <i class="fa fa-laptop"></i>
+                                        Demo</a>
+                                    </div>
+                                    <div className={styles.github_link}><a href="https://github.com/therealdrtroll/clockify-clone">
+                                        <i class="fa fa-github"></i>
+                                        Github Link</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -244,9 +263,15 @@ const Portfolio = () => {
                             <div className={styles.text}>
                                 <h4>Wrike Website Clone</h4>
                                 <p>The clone of the official Wrike website, a business management tool. A static website with basic DOM operations like checking user inputs and cool hovering effects.</p>
-                                <div className={styles.github_link}><a href="https://github.com/suhaibzahmed/unit-1-eval">
-                                    <i class="fa fa-github"></i>
-                                    Github Link</a>
+                                <div className={styles.project_links_div}>
+                                    <div className={styles.github_link}><a href="https://wrike-clone.herokuapp.com/">
+                                        <i class="fa fa-laptop"></i>
+                                        Demo</a>
+                                    </div>
+                                    <div className={styles.github_link}><a href="https://github.com/suhaibzahmed/unit-1-eval">
+                                        <i class="fa fa-github"></i>
+                                        Github Link</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -303,6 +328,13 @@ const Portfolio = () => {
                             <h3><a href = "https://github.com/suhaibzahmed">Github</a></h3>
                         </div>
                     </div>
+
+                    <div className={styles.contact_details} data-aos="flip-left">
+                        <div className={styles.contact_icon}><i class="fa fa-twitter"></i></div>
+                        <div className={styles.contact_info} style={{marginTop: "18px"}}>
+                            <h3><a href = "https://twitter.com/AHEMed_Suhaib">Twitter</a></h3>
+                        </div>
+                    </div>
                     
                 </div>
                 
@@ -312,3 +344,13 @@ const Portfolio = () => {
 }
 
 export default Portfolio
+
+
+
+
+
+// data-aos="flip-left"
+// data-aos="flip-left"
+// data-aos="flip-left"
+// data-aos="flip-left"
+// data-aos="flip-left"
