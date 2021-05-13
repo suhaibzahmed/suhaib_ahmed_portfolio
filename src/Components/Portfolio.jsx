@@ -191,11 +191,11 @@ const Portfolio = () => {
                                 <h4>CNN News Website Clone</h4>
                                 <p>The clone of the official CNN News website with all the current news and headlines. Has links to each headlines which shows detailed news. It has got features like search news, toggle between languages and much more.</p>
                                 <div className={styles.project_links_div}>
-                                    <div className={styles.github_link}><a href="https://maheshfsd.github.io/ethane/">
+                                    <div className={styles.github_link}><a href="https://maheshfsd.github.io/ethane/" target="_blank">
                                         <i class="fa fa-laptop"></i>
                                         Demo</a>
                                     </div>
-                                    <div className={styles.github_link}><a href="https://github.com/MaheshFSD/ethane">
+                                    <div className={styles.github_link}><a href="https://github.com/MaheshFSD/ethane" target="_blank">
                                         <i class="fa fa-github"></i>
                                         Github Link</a>
                                     </div>
@@ -216,11 +216,11 @@ const Portfolio = () => {
                                 <h4>Boat Audio Website Clone</h4>
                                 <p>The clone of the official Boat Audio website. Consists of all products in each category. Features like sort products based on price implemented. Also has functionalities like change quantity and color of product. User can also add items to cart.</p>
                                 <div className={styles.project_links_div}>
-                                    <div className={styles.github_link}><a href="https://boat-clone.herokuapp.com/">
+                                    <div className={styles.github_link}><a href="https://boat-clone.herokuapp.com/" target="_blank">
                                         <i class="fa fa-laptop"></i>
                                         Demo</a>
                                     </div>
-                                    <div className={styles.github_link}><a href="https://github.com/suhaibzahmed/Boat-Clone/tree/Suhaib">
+                                    <div className={styles.github_link}><a href="https://github.com/suhaibzahmed/Boat-Clone/tree/Suhaib" target="_blank">
                                         <i class="fa fa-github"></i>
                                         Github Link</a>
                                     </div>
@@ -240,11 +240,11 @@ const Portfolio = () => {
                                 <h4>Clockify Website Clone</h4>
                                 <p>The clone of the official Clockify website, a time management tool. Has features like timesheet, where user can add time spent on each task, and timetracker which tracks the time from when task started. Also depicts data in graphical form for better analysis. </p>
                                 <div className={styles.project_links_div}>
-                                    <div className={styles.github_link}><a href="https://clockify-hydrogen.netlify.app/">
+                                    <div className={styles.github_link}><a href="https://clockify-hydrogen.netlify.app/" target="_blank">
                                         <i class="fa fa-laptop"></i>
                                         Demo</a>
                                     </div>
-                                    <div className={styles.github_link}><a href="https://github.com/therealdrtroll/clockify-clone">
+                                    <div className={styles.github_link}><a href="https://github.com/therealdrtroll/clockify-clone" target="_blank">
                                         <i class="fa fa-github"></i>
                                         Github Link</a>
                                     </div>
@@ -264,11 +264,11 @@ const Portfolio = () => {
                                 <h4>Wrike Website Clone</h4>
                                 <p>The clone of the official Wrike website, a business management tool. A static website with basic DOM operations like checking user inputs and cool hovering effects.</p>
                                 <div className={styles.project_links_div}>
-                                    <div className={styles.github_link}><a href="https://wrike-clone.herokuapp.com/">
+                                    <div className={styles.github_link}><a href="https://wrike-clone.herokuapp.com/" target="_blank">
                                         <i class="fa fa-laptop"></i>
                                         Demo</a>
                                     </div>
-                                    <div className={styles.github_link}><a href="https://github.com/suhaibzahmed/unit-1-eval">
+                                    <div className={styles.github_link}><a href="https://github.com/suhaibzahmed/unit-1-eval" target="_blank">
                                         <i class="fa fa-github"></i>
                                         Github Link</a>
                                     </div>
