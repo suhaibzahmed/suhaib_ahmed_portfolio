@@ -125,9 +125,9 @@ const Portfolio = () => {
                         Always eager to engage in new and exciting projects. Looking forward to making a mark in the programming world.
                     </div>
                     <div className={styles.social_links}>
-                        <a href = "https://www.linkedin.com/in/suhaib-ahmed10"><i class="fa fa-linkedin" data-aos="fade-up" data-aos-delay="1000"></i></a>
-                        <a href = "https://github.com/suhaibzahmed"><i class="fa fa-github" data-aos="fade-up" data-aos-delay="1200"></i></a>
-                        <a href = "https://twitter.com/AHEMed_Suhaib"><i class="fa fa-twitter" data-aos="fade-up" data-aos-delay="1400"></i></a>
+                        <a href = "https://www.linkedin.com/in/suhaib-ahmed10" target="_blank"><i class="fa fa-linkedin" data-aos="fade-up" data-aos-delay="1000"></i></a>
+                        <a href = "https://github.com/suhaibzahmed" target="_blank"><i class="fa fa-github" data-aos="fade-up" data-aos-delay="1200"></i></a>
+                        <a href = "https://twitter.com/AHEMed_Suhaib" target="_blank"><i class="fa fa-twitter" data-aos="fade-up" data-aos-delay="1400"></i></a>
                     </div>
 
                     <div className={styles.resume} data-aos="fade-up" data-aos-delay="1000"> <a href="https://drive.google.com/file/d/1ikNB25IReozzv21DMAN2dXYxSVre7MvU/view?usp=sharing" target="_blank">Download Resume</a></div>
@@ -318,21 +318,21 @@ const Portfolio = () => {
                     <div className={styles.contact_details} data-aos="flip-left">
                         <div className={styles.contact_icon}><i class="fa fa-linkedin"></i></div>
                         <div className={styles.contact_info} style={{marginTop: "18px"}}>
-                            <h3><a href = "https://www.linkedin.com/in/suhaib-ahmed10">LinkedIn</a></h3>
+                            <h3><a href = "https://www.linkedin.com/in/suhaib-ahmed10" target="_blank">LinkedIn</a></h3>
                         </div>
                     </div>
 
                     <div className={styles.contact_details} data-aos="flip-left">
                         <div className={styles.contact_icon}><i class="fa fa-github"></i></div>
                         <div className={styles.contact_info} style={{marginTop: "18px"}}>
-                            <h3><a href = "https://github.com/suhaibzahmed">Github</a></h3>
+                            <h3><a href = "https://github.com/suhaibzahmed" target="_blank">Github</a></h3>
                         </div>
                     </div>
 
                     <div className={styles.contact_details} data-aos="flip-left">
                         <div className={styles.contact_icon}><i class="fa fa-twitter"></i></div>
                         <div className={styles.contact_info} style={{marginTop: "18px"}}>
-                            <h3><a href = "https://twitter.com/AHEMed_Suhaib">Twitter</a></h3>
+                            <h3><a href = "https://twitter.com/AHEMed_Suhaib" target="_blank">Twitter</a></h3>
                         </div>
                     </div>
                     
