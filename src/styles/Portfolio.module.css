@@ -582,8 +582,8 @@ a {
 
 
 
-/* Extra small devices (phones, 945px and down) */
-@media only screen and (max-width: 945px) {
+/* Extra small devices (phones, 980px and down) */
+@media only screen and (max-width: 980px) {
 
     .burger_div, .close_div {
         display: block;

@@ -89,7 +89,7 @@ const Portfolio = () => {
 
             {/* Navbar */}
             <div className={solidNav ? styles.solidNavbar : styles.transparentNavbar}>
-                <div className={styles.navbar_name}>SUHAIB AHMED</div>
+                <div className={styles.navbar_name}>SUHAIB Z AHMED</div>
                 {navBurger ? <div className={styles.burger_div}><i class="fa fa-times" className={styles.navbar_burger} onClick={handleBurger}></i></div> : <div className={styles.close_div}><i class="fa fa-bars" className={styles.navbar_close} onClick={handleBurger}></i></div>}
                 <div className={navBurger ? styles.burger_options : styles.menu_options}>
                     <div onClick={handleHome} className={navHome ? styles.underlineOpt : styles.noUnderlineOpt}><a href="#home">Home</a></div>
@@ -105,7 +105,7 @@ const Portfolio = () => {
                 <div className={styles.homeDetails} data-aos="fade-right">
                     <p className={styles.hello}>Hello.</p>
                     <p className={styles.iam}>I Am</p>
-                    <p className={styles.myName}>Suhaib Ahmed</p>
+                    <p className={styles.myName}>Suhaib Z Ahmed</p>
                     <p className={styles.line1}>An Aspiring Full Stack Web Developer.</p>
                 </div>
                 <div className={styles.about_btn} data-aos="fade-right" data-aos-delay="3000"><a href="#about" >About me</a></div>
@@ -130,7 +130,7 @@ const Portfolio = () => {
                         <a href = "https://twitter.com/AHEMed_Suhaib" target="_blank"><i class="fa fa-twitter" data-aos="fade-up" data-aos-delay="1400"></i></a>
                     </div>
 
-                    <div className={styles.resume} data-aos="fade-up" data-aos-delay="1000"> <a href="https://drive.google.com/file/d/1ikNB25IReozzv21DMAN2dXYxSVre7MvU/view?usp=sharing" target="_blank">Download Resume</a></div>
+                    <div className={styles.resume} data-aos="fade-up" data-aos-delay="1000"> <a href="https://drive.google.com/file/d/1mMXTcTqlm0XuLRfVtk4BMZ8K9AQ_Rwr_/view?usp=sharing" target="_blank">Download Resume</a></div>
                 </div>
             </section>
 
