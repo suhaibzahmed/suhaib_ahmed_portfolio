@@ -216,7 +216,7 @@ const Portfolio = () => {
                                 <h4>Boat Audio Website Clone</h4>
                                 <p>The clone of the official Boat Audio website. Consists of all products in each category. Features like sort products based on price implemented. Also has functionalities like change quantity and color of product. User can also add items to cart.</p>
                                 <div className={styles.project_links_div}>
-                                    <div className={styles.github_link}><a href="https://boat-clone.herokuapp.com/" target="_blank">
+                                    <div className={styles.github_link}><a href="https://boat-clone.vercel.app/" target="_blank">
                                         <i class="fa fa-laptop"></i>
                                         Demo</a>
                                     </div>
