@@ -130,7 +130,7 @@ const Portfolio = () => {
                         <a href = "https://twitter.com/AHEMed_Suhaib" target="_blank"><i class="fa fa-twitter" data-aos="fade-up" data-aos-delay="1400"></i></a>
                     </div>
 
-                    <div className={styles.resume} data-aos="fade-up" data-aos-delay="1000"> <a href="https://drive.google.com/file/d/12f7tU0bNoUpuwVz0zxOn9_nnXdqddAHy/view?usp=sharing" target="_blank">Download Resume</a></div>
+                    <div className={styles.resume} data-aos="fade-up" data-aos-delay="1000"> <a href="https://drive.google.com/file/d/1bW3wLkIybn9vuUtTx1c-tBaTR-e_ZDFz/view?usp=sharing" target="_blank">Download Resume</a></div>
                 </div>
             </section>
 
