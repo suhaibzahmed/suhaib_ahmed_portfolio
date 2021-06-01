@@ -191,7 +191,7 @@ const Portfolio = () => {
                                 <h4>CNN News Website Clone</h4>
                                 <p>The clone of the official CNN News website with all the current news and headlines. Has links to each headlines which shows detailed news. It has got features like search news, toggle between languages and much more.</p>
                                 <div className={styles.project_links_div}>
-                                    <div className={styles.github_link}><a href="https://cnn-clone.herokuapp.com/" target="_blank">
+                                    <div className={styles.github_link}><a href="https://cnn-clone-web.netlify.app/" target="_blank">
                                         <i class="fa fa-laptop"></i>
                                         Demo</a>
                                     </div>
@@ -220,7 +220,7 @@ const Portfolio = () => {
                                         <i class="fa fa-laptop"></i>
                                         Demo</a>
                                     </div>
-                                    <div className={styles.github_link}><a href="https://github.com/suhaibzahmed/Boat-Clone/tree/Suhaib" target="_blank">
+                                    <div className={styles.github_link}><a href="https://github.com/hrshrayank/Boat-Clone" target="_blank">
                                         <i class="fa fa-github"></i>
                                         Github Link</a>
                                     </div>
