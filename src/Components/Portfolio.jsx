@@ -119,7 +119,7 @@ const Portfolio = () => {
                 <div data-aos="fade-left" className={styles.heading_line}></div>
                 
                 <div data-aos="zoom-out" className={styles.about_card}>
-                    <div className={styles.about_img} data-aos="fade-right" data-aos-delay="1000"><img src="https://imgur.com/3Xc00rk"/></div>
+                    <div className={styles.about_img} data-aos="fade-right" data-aos-delay="1000"><img src="https://i.imgur.com/3Xc00rk.jpg"/></div>
                     <div className={styles.about_desc} data-aos="fade-left" data-aos-delay="1000">
                         A passionate and self-motivated aspiring Full Stack Web Developer skilled in MERN stack.
                         Always eager to engage in new and exciting projects. Looking forward to making a mark in the programming world.
@@ -141,14 +141,14 @@ const Portfolio = () => {
                 <div data-aos="fade-left" className={styles.heading_line}></div>
 
                 <div className={styles.tech_stack}>
-                    <div data-aos="flip-left" data-aos-delay="500"><img src= "https://i.postimg.cc/VLmvF7TS/html.png"/><h3>HTML</h3></div>
-                    <div data-aos="flip-left" data-aos-delay="800"><img src= "https://i.postimg.cc/XNwXdM2S/css.png"/><h3>CSS</h3></div>
-                    <div data-aos="flip-left" data-aos-delay="1100"><img src= "https://i.postimg.cc/Y9F0dTMF/js.png"/><h3>Javascript</h3></div>
-                    <div data-aos="flip-left" data-aos-delay="1400"><img src= "https://i.postimg.cc/5Ng0KBds/react.png"/><h3>React</h3></div>
-                    <div data-aos="flip-left" data-aos-delay="1700"><img src= "https://i.postimg.cc/Hn4xg5Js/redux.png"/><h3>Redux</h3></div>
-                    <div data-aos="flip-left" data-aos-delay="2000"><img src= "https://i.postimg.cc/6p1QtBQR/mongo.png"/><h3>MongoDB</h3></div>
-                    <div data-aos="flip-left" data-aos-delay="2300"><img src= "https://i.postimg.cc/52tthXfb/mysql.png"/><h3>MySQL</h3></div>
-                    <div data-aos="flip-left" data-aos-delay="2600"><img src= "https://i.postimg.cc/YSZjftKk/git.png"/><h3>GIT</h3></div>
+                    <div data-aos="flip-left" data-aos-delay="500"><img src= "https://i.imgur.com/199FGdG.png"/><h3>HTML</h3></div>
+                    <div data-aos="flip-left" data-aos-delay="800"><img src= "https://i.imgur.com/Z5Tp9mq.png"/><h3>CSS</h3></div>
+                    <div data-aos="flip-left" data-aos-delay="1100"><img src= "https://i.imgur.com/YUH9xLU.png"/><h3>Javascript</h3></div>
+                    <div data-aos="flip-left" data-aos-delay="1400"><img src= "https://i.imgur.com/u57rAry.png"/><h3>React</h3></div>
+                    <div data-aos="flip-left" data-aos-delay="1700"><img src= "https://i.imgur.com/cwAherK.png"/><h3>Redux</h3></div>
+                    <div data-aos="flip-left" data-aos-delay="2000"><img src= "https://i.imgur.com/D27aAjc.png"/><h3>MongoDB</h3></div>
+                    <div data-aos="flip-left" data-aos-delay="2300"><img src= "https://i.imgur.com/pYXBQHf.png"/><h3>MySQL</h3></div>
+                    <div data-aos="flip-left" data-aos-delay="2600"><img src= "https://i.imgur.com/FMNpPRF.png"/><h3>GIT</h3></div>
                 </div>
             </section>
 
@@ -160,17 +160,17 @@ const Portfolio = () => {
 
                 <div className={styles.prof}>
                     <div data-aos="flip-left" data-aos-delay="500">
-                        <img src= "https://i.postimg.cc/sxwVdCQw/front.png"/>
+                        <img src= "https://i.imgur.com/mcrbKNO.png"/>
                         <h3>Front-end</h3>
                         <p>HTML, CSS, Javascript, React, Redux</p>
                     </div>
                     <div data-aos="flip-left" data-aos-delay="800">
-                        <img src= "https://i.postimg.cc/VLkf9vpT/back.png"/>
+                        <img src= "https://i.imgur.com/Hw7UlDt.png"/>
                         <h3>Back-end</h3>
                         <p>Express, MongoDB, MySQL</p>
                     </div>
                     <div data-aos="flip-left" data-aos-delay="1100">
-                        <img src= "https://i.postimg.cc/zDjDRKtK/ds.png"/>
+                        <img src= "https://i.imgur.com/m4SjCN3.png"/>
                         <h3>Data Structures & Algorithms</h3>
                         <p>Arrays, Stacks, Queues, Recursion, Sorting Algorithms</p>
                     </div>
@@ -185,7 +185,7 @@ const Portfolio = () => {
 
                 <div className={styles.project_div}>
                     <div className={styles.project_card}>
-                        <img src="https://i.postimg.cc/HsyQ1bwG/cnn.png" alt="Avatar" className={styles.project_img} />
+                        <img src="https://i.imgur.com/Ej6y7KY.png" alt="Avatar" className={styles.project_img} />
                         <div className={styles.overlay}>
                             <div className={styles.text}>
                                 <h4>CNN News Website Clone</h4>
@@ -204,13 +204,13 @@ const Portfolio = () => {
                             </div>
                         </div>
                         <div className={styles.project_tech_div}>
-                            <div><img src="https://i.postimg.cc/5Ng0KBds/react.png" /></div>
-                            <div><img src="https://i.postimg.cc/Hn4xg5Js/redux.png" /></div>
-                            <div><img src="https://i.postimg.cc/XNwXdM2S/css.png" /></div>
+                            <div><img src="https://i.imgur.com/u57rAry.png" /></div>
+                            <div><img src="https://i.imgur.com/cwAherK.png" /></div>
+                            <div><img src="https://i.imgur.com/Z5Tp9mq.png" /></div>
                         </div>
                     </div>
                     <div className={styles.project_card}>
-                        <img src="https://i.postimg.cc/63bdt0bK/boat.png" alt="Avatar" className={styles.project_img} />
+                        <img src="https://i.imgur.com/W1pEN80.png" alt="Avatar" className={styles.project_img} style={{marginTop:"-50px"}}/>
                         <div className={styles.overlay}>
                             <div className={styles.text}>
                                 <h4>Boat Audio Website Clone</h4>
@@ -227,14 +227,14 @@ const Portfolio = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className={styles.project_tech_div}>
-                            <div><img src="https://i.postimg.cc/VLmvF7TS/html.png" /></div>
-                            <div><img src="https://i.postimg.cc/XNwXdM2S/css.png" /></div>
-                            <div><img src="https://i.postimg.cc/Y9F0dTMF/js.png" /></div>
+                        <div className={styles.project_tech_div} style={{marginTop:"50px"}}>
+                            <div><img src="https://i.imgur.com/199FGdG.png" /></div>
+                            <div><img src="https://i.imgur.com/Z5Tp9mq.png" /></div>
+                            <div><img src="https://i.imgur.com/YUH9xLU.png" /></div>
                         </div>
                     </div>
                     <div className={styles.project_card}>
-                        <img src="https://i.postimg.cc/bJwQ7MTL/clockify.png" alt="Avatar" className={styles.project_img} />
+                        <img src="https://i.imgur.com/ReQuv04.png" alt="Avatar" className={styles.project_img} />
                         <div className={styles.overlay}>
                             <div className={styles.text}>
                                 <h4>Clockify Website Clone</h4>
@@ -252,13 +252,13 @@ const Portfolio = () => {
                             </div>
                         </div>
                         <div className={styles.project_tech_div}>
-                            <div><img src="https://i.postimg.cc/VLmvF7TS/html.png" /></div>
-                            <div><img src="https://i.postimg.cc/XNwXdM2S/css.png" /></div>
-                            <div><img src="https://i.postimg.cc/Y9F0dTMF/js.png" /></div>
+                            <div><img src="https://i.imgur.com/199FGdG.png" /></div>
+                            <div><img src="https://i.imgur.com/Z5Tp9mq.png" /></div>
+                            <div><img src="https://i.imgur.com/YUH9xLU.png" /></div>
                         </div>
                     </div>
                     <div className={styles.project_card}>
-                        <img src="https://i.postimg.cc/pr9KTF3F/wrike.png" alt="Avatar" className={styles.project_img} />
+                        <img src="https://i.imgur.com/UCX3wL5.png" alt="Avatar" className={styles.project_img} />
                         <div className={styles.overlay}>
                             <div className={styles.text}>
                                 <h4>Wrike Website Clone</h4>
@@ -276,9 +276,9 @@ const Portfolio = () => {
                             </div>
                         </div>
                         <div className={styles.project_tech_div}>
-                            <div><img src="https://i.postimg.cc/VLmvF7TS/html.png" /></div>
-                            <div><img src="https://i.postimg.cc/XNwXdM2S/css.png" /></div>
-                            <div><img src="https://i.postimg.cc/Y9F0dTMF/js.png" /></div>
+                            <div><img src="https://i.imgur.com/199FGdG.png" /></div>
+                            <div><img src="https://i.imgur.com/Z5Tp9mq.png" /></div>
+                            <div><img src="https://i.imgur.com/YUH9xLU.png" /></div>
                         </div>
                     </div>
                 </div>
