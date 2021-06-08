@@ -119,7 +119,7 @@ const Portfolio = () => {
                 <div data-aos="fade-left" className={styles.heading_line}></div>
                 
                 <div data-aos="zoom-out" className={styles.about_card}>
-                    <div className={styles.about_img} data-aos="fade-right" data-aos-delay="1000"><img src="https://i.postimg.cc/rp3Pb260/my-photo.jpg"/></div>
+                    <div className={styles.about_img} data-aos="fade-right" data-aos-delay="1000"><img src="https://imgur.com/3Xc00rk"/></div>
                     <div className={styles.about_desc} data-aos="fade-left" data-aos-delay="1000">
                         A passionate and self-motivated aspiring Full Stack Web Developer skilled in MERN stack.
                         Always eager to engage in new and exciting projects. Looking forward to making a mark in the programming world.
